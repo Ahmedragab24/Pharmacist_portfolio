@@ -1189,6 +1189,12 @@ svg {
 
 }
 
+@media screen and (max-width: 367px) {
+  .home--social-link {
+    font-size: var(--small-font-size);
+  }
+}
+
 @media screen and (min-width: 295px) {
   .about--info {
     grid-template-columns: repeat(2, 1fr);

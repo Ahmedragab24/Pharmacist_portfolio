@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,63 +32,67 @@
       <header class="header" id="header">
          <nav class="nav containerr">
             <a href="./index.html" class="nav--logo">
-               Mohamed <span>alhiraki</span>
+               محمد <span>الحراكي</span>
             </a>
- 
+
             <div class="nav--menu" id="nav-menu">
                <ul class="nav--list">
                   <li class="nav--item">
-                     <a href="./index.html" class="nav--link active-link">Home</a>
+                     <a href="./index.html#home" class="nav--link active-link">الرئيسية</a>
                   </li>
- 
+
                   <li class="nav--item">
-                     <a href="./index.html#about" class="nav--link">About</a>
+                     <a href="./index.html#about" class="nav--link">عني</a>
                   </li>
- 
+
                   <li class="nav--item">
-                     <a href="./Services.html" class="nav--link">Services</a>
+                     <a href="./Services.html" class="nav--link">خدمات</a>
                   </li>
- 
+
                   <li class="nav--item">
-                     <a href="./index.html#projects" class="nav--link">Projects</a>
+                     <a href="./index.html#projects" class="nav--link">تدوينات</a>
                   </li>
- 
+
                   <li class="nav--item">
-                     <a href="./index.html#contact" class="nav--link">Contact</a>
+                     <a href="./Library.html" class="nav--link">مكتبة</a>
                   </li>
- 
+
+                  <li class="nav--item">
+                     <a href="./index.html#contact" class="nav--link">تواصل معي</a>
+                  </li>
+
                   <li class="nav--item dropdown">
-                     <a href="#" class="nav--link-but dropdown-toggle menu__lang" role="button" data-bs-toggle="dropdown">language</a>
+                     <a href="#" class="nav--link-but dropdown-toggle menu__lang" role="button" data-bs-toggle="dropdown">لغة</a>
                      <ul class="dropdown-menu">
                         <!-- <li class="dropdown-item "><a class="nav__link menu__lang-en" href="#" id="en">English</a></li> -->
                         <li class="dropdown-item "><a class="nav--link-but menu__lang-ar" href="#" id="google_translate_element"></a></li>
                     </ul>
                   </li>
- 
+
                </ul>
- 
+
                <div class="nav__dark">
                   <!-- Theme change button -->
-                  <span class="change-theme-name">Dark mode</span>
+                  <span class="change-theme-name">الوضع المظلم</span>
                   <i class='bx bx-moon change-theme' id="theme-button"></i>
               </div>
- 
+
                <!-- Close button -->
                <div class="nav--close" id="nav-close">
                   <i class="fa-solid fa-xmark"></i>
                </div>
             </div>
- 
+
             <!-- Toggle button  -->
             <div class="nav--toggle" id="nav-toggle">
                <i class="fa-solid fa-bars"></i>
             </div>
- 
+
          </nav>
       </header>
 
-     <!-- ====================== Services ================== -->
-     <section class="services-page" id="services">
+      <!-- ====================== Services ================== -->
+      <section class="services-page" id="services">
         <h1 class="section-title">الخدمات</h1>
 
         <h3 class="section-subtitle">إنتقل أداء مشروعك التجاري إلي المستوى التالي</h3>
@@ -118,18 +122,18 @@
                 <a href="./service-6.html"><img src="./assets/img/Services/6.png" alt="projects image" class="services-page--img"></a>
              </article>
         </div>
-     </section>
+      </section>
 
-     <!--==================== FOOTER ====================-->
-     <footer class="footer">
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
          <div class="footer--containerr containerr grid">
             <div>
                <h1 class="footer--title">
-                  Mohamed <span>alhiraki</span>
+                  محمد <span>الحراكي</span>
                </h1>
 
                <h2 class="footer--education">
-                  Front-end Developer  
+                    دكتور صيدلاني
                </h2>
             </div>
 
@@ -143,28 +147,31 @@
                </a>
 
                <a href="https://twitter.com/" target="_blank" class="footer--social-link">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
                </a>
             </div>
 
             <div class="footer--description">
                <h3 class="footer--h3-des">
-                  Small ideas, but the way to reach exceptional results may inspire you. Do not forget to follow social networks to improve the performance of your campaigns or develop your business.
+                  أفكار صغيرة ولكن ..
+                  قد تلهمك الطريق للوصول إلى نتائج استثنائية
+                  فلا تنسى متابعة شبكات التواصل الاجتماعي
+                  لتحسين أداء حملاتك أو تطوير مشروعك التجاري
                </h3>
             </div>
          </div>
 
          <div class="footer--footer containerr grid">
             <div class="footer--copy">
-               &#169; Copyright Dr/Mohamed Alharaky. All rights reserved
+               2023 &#169;  كافة الحقوق محفوظة
             </div>
             <div class="footer--copy kavo">
-               <a href="https://ahmedragab24.github.io/" target="_blank" class="footer--ahmedragab">Design and developerBy : ahmed ragab</a>
+               <a href="https://ahmedragab24.github.io/" target="_blank" class="footer--ahmedragab">التصميم بواسطة: أحمد رجب</a>
             </div>
          </div>
-     </footer>
+      </footer>
 
-    <style>
+     <style>
         :root {
             --hue: 271;
             --first-color: hsl(var(--hue), 100%, 56%);
@@ -263,9 +270,9 @@
             width: 300px;
         }
         }
-    </style>
+     </style>
 
-    <script>
+     <script>
       
          /*==================== DARK LIGHT THEME ====================*/ 
          const themeButton = document.getElementById('theme-button')
@@ -297,15 +304,31 @@
             localStorage.setItem('selected-icon', getCurrentIcon())
          })
 
+         /*=============== SCROLL REVEAL ANIMATION ===============*/
+         const ss = ScrollReveal({
+            origin: 'top',
+            distance: '60px',
+            duration: 2500,
+            delay: 400,
+            reset: true,
+         })
+
+         ss.reveal(`.section-title`)
+         ss.reveal(`.section-subtitle`, {delay: 500})
+         ss.reveal(`.services--page-containerr,`, {delay: 700})
+         ss.reveal(`.footer--containerr`, {delay: 800, origin: 'bottom'})
+         ss.reveal(`.services-page--card` , {interval: 100})
+
+
 
          // ========================= TRANSLATE ================================
          function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
          }
-    </script>
+     </script>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="./assets/js/scrollreveal.min.js"></script>
 
       <!-- ===================================  Translate  ================================ -->
       <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
