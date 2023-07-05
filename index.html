@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+   <html lang="ar">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== FONTASOME ===============-->
+      <script src="https://kit.fontawesome.com/e29ee4bc00.js" crossorigin="anonymous"></script>
+
+      <!--=============== BOXICON ===============-->
+      <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+      <!--=============== ANIMATE ===============-->
+      <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+      <!-- ===================================  SWIPER CSS  ================================== -->
+      <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+      <!-- ===================================  BOOTSTRAP  ================================== -->
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+      
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>محمد الحراكي</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav containerr">
+            <a href="#" class="nav--logo">
+               محمد <span>الحراكي</span>
+            </a>
+
+            <div class="nav--menu" id="nav-menu">
+               <ul class="nav--list">
+                  <li class="nav--item">
+                     <a href="#home" class="nav--link active-link">الرئيسية</a>
+                  </li>
+
+                  <li class="nav--item">
+                     <a href="#about" class="nav--link">عني</a>
+                  </li>
+
+                  <li class="nav--item">
+                     <a href="./Services.html" class="nav--link">خدمات</a>
+                  </li>
+
+                  <li class="nav--item">
+                     <a href="#projects" class="nav--link">تدوينات</a>
+                  </li>
+
+                  <li class="nav--item">
+                     <a href="./Library.html" class="nav--link">مكتبة</a>
+                  </li>
+
+                  <li class="nav--item">
+                     <a href="#contact" class="nav--link">تواصل معي</a>
+                  </li>
+
+                  <li class="nav--item dropdown">
+                     <a href="#" class="nav--link-but dropdown-toggle menu__lang" role="button" data-bs-toggle="dropdown">لغة</a>
+                     <ul class="dropdown-menu">
+                        <!-- <li class="dropdown-item "><a class="nav__link menu__lang-en" href="#" id="en">English</a></li> -->
+                        <li class="dropdown-item "><a class="nav--link-but menu__lang-ar" href="#" id="google_translate_element"></a></li>
+                    </ul>
+                  </li>
+
+               </ul>
+
+               <div class="nav__dark">
+                  <!-- Theme change button -->
+                  <span class="change-theme-name">الوضع المظلم</span>
+                  <i class='bx bx-moon change-theme' id="theme-button"></i>
+              </div>
+
+               <!-- Close button -->
+               <div class="nav--close" id="nav-close">
+                  <i class="fa-solid fa-xmark"></i>
+               </div>
+            </div>
+
+            <!-- Toggle button  -->
+            <div class="nav--toggle" id="nav-toggle">
+               <i class="fa-solid fa-bars"></i>
+            </div>
+
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home--containerr containerr grid">
+               <div class="home--content">
+                  <div class="home--data">
+                     <h3 class="home--subtitle">
+                        مرحباً, <span>أنا</span>
+                     </h3>
+
+                     <h1 class="home--title">محمد الحراكي</h1>
+
+                     <h3 class="home--education">دكتور صيدلاني</h3>
+
+                     <p class="home--description">
+                        صيدلاني خريج جامعة فيلادفيا , مسوق إلكتروني بخبرة 5 سنوات في بحور التسويق الصيدلاني وأدوات التسويق والتحليل الإلكتروني , متمكن من فنون التصميم والفيدو جرافيك وبرصيد يقارب 700 تصميم
+                     </p>
+
+                     <a href="#contact" class="button home--btn">تواصل معي</a>
+                  </div>
+
+                  <div class="home--social">
+                     <a href="https://www.instagram.com/m.alheraki/?igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                     </a>
+
+                     <a href="https://www.facebook.com/MAlHeraki?mibextid=ZbWKwL" target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                     </a>
+
+                     <a href="https://www.behance.net/mohammadalheraki" target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-behance"></i>
+                     </a>
+
+                     <a href="https://www.youtube.com/@user-wz1yx7yh5m" target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-youtube"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/malheraki/" target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/malheraki/" target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-whatsapp"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="home--image">
+                  <svg class="home--blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                     <mask id="maskBlob" mask-type="alpha">
+                        <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                        170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                        447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                        587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                        438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                     </mask>
+                     <g mask="url(#maskBlob)">
+                        <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                        170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                        447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                        587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                        438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                  
+                        <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
+                     </g>
+                  
+                     <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
+                  
+                     <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                        </pattern>
+                  
+                        <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                        </pattern>
+                  
+                        <!-- Insert your profile (recommended size: 640 x 940) -->
+                        <image class="home--img" id="imageBlob" width="640" height="925" href="./assets/img/perfil.png"/>
+                     </defs>
+                  </svg>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about--containerr containerr grid">
+               <div class="about--data">
+                  <h3 class="section--subtitle">
+                     نبذة <span>عني</span>
+                  </h3>
+
+                  <h2 class="section--title">
+                     About Me
+                  </h2>
+
+                  <div class="about--info">
+                     <div class="about--box">
+                         <i class="fa-solid fa-award about--icon"></i>
+                         <h3 class="about--title">9999</h3>
+                         <span class="about--subtitle">Total <br> Items</span>
+                     </div>
+
+                     <div class="about--box">
+                         <i class="fa-solid fa-list-check about--icon"></i>
+                         <h3 class="about--title">3.90k+</h3>
+                         <span class="about--subtitle">Total <br> Owners</span>
+                     </div>
+
+                     <div class="about--box">
+                         <i class="fa-solid fa-tags about--icon"></i>
+                         <h3 class="about--title">2.40</h3>
+                         <span class="about--subtitle">Floor <br> Price (ETH)</span>
+                     </div>
+
+                     <div class="about--box">
+                         <i class="fa-solid fa-money-bill-trend-up about--icon"></i>
+                         <h3 class="about--title">144k+</h3>
+                         <span class="about--subtitle">Volume <br> Traded (ETH)</span>
+                     </div>
+                 </div>
+
+                  <p class="about--description">
+                     صيدلاني خريج جامعة فيلادفيا , مسوق إلكتروني بخبرة 5 سنوات في بحور التسويق الصيدلاني وأدوات التسويق والتحليل الإلكتروني , متمكن من فنون التصميم والفيدو جرافيك وبرصيد يقارب 700 تصميم, مدقق رئيسي معتمد علي نظام الجودة وحاصل علي مجموعة من الشهادات الدولية والمحلية في علوم التسويق الصيلادني والإدارة الصحية ونظم.الجودة الدولية. 
+                  </p>
+
+                  <a href="./CV.html" target="_blank" class="button">المزيد عني</a>
+                  <!-- <a href="#contact" class="button">success story<i class="fa-solid fa-video"></i></a> -->
+               </div>
+
+               <div class="about--image">
+                  <svg class="about--blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <mask id="maskBorder" mask-type="alpha">
+                        <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                        171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                        448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                        270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                        439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
+                     </mask>
+                     <g mask="url(#maskBorder)">
+                        <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
+                        
+                        <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                        192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                        580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                        40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                        175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
+                     </g>
+                  
+                     <rect x="37" width="476" height="300" fill="url(#pattern3)"/>
+                  
+                     <defs>
+                        <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                        </pattern>
+                  
+                        <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                        </pattern>
+                  
+                        <!-- Insert your profile (recommended size: 640 x 940) -->
+                        <image class="about--img" id="imageBorder" width="640" height="940" href="./assets/img/perfil.png"/>
+                     </defs>
+                  </svg>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SKILLS ====================-->
+         <section class="skills section">
+            <div class="skills--containerr containerr grid">
+               <div class="skills--data">
+                  <h3 class="section--subtitle">
+                     أهم <span>مهاراتي</span>
+                  </h3>
+
+                  <h2 class="section--title">My Skills</h2>
+
+                  <p class="skills--description">
+                     انظر بالكامل إلى المهارات التي أمتلكها وأؤديها ،
+                     لتطوير المشاريع من أجلك.
+                  </p>
+
+                  <a href="./Services.html" class="button">شاهد الخدمات</a>
+               </div>
+
+               <div class="skills--content">
+                  <ol class="skills--group">
+                     <li class="skills--item">دكتور صيدلاني</li>
+                     <li class="skills--item">مسوق إلكتروني</li>
+                  </ol>
+
+                  <ol class="skills--group" start="4">
+                     <li class="skills--item">مصمم جرافيك</li>
+                     <li class="skills--item">مدقق رئيسي</li>
+                  </ol>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h3 class="section--subtitle">
+               ماذا <span>أقدم
+            </h3>
+
+            <h2 class="section--title">What I Do</h2>
+
+            <div class="services--containerr containerr grid">
+               <article class="services--card">
+                  <i class="fa-solid fa-briefcase services--icon"></i>
+                  <h2 class="services--title">مسوق إلكتروني</h2>
+
+                  <p class="services--description">
+                     متخصص ببناء قنوات توليد العملاء، وتطوير نظم تتبع سلوك الجماهير بهدف تحسين معدلات التحويل، إلى جانب قيادة أنشطة التحول الرقمي
+                  </p>
+               </article>
+
+               <article class="services--card">
+                  <i class="fa-solid fa-swatchbook services--icon"></i>
+                  <h2 class="services--title">مصمم جرافيك</h2>
+
+                  <p class="services--description">
+                     العمل على تصاميم الشركة وفقاً لمعاير محددة وإعداد التصاميم المبتكرة وبشكل إحترافياً  وأقوم بعمل تصميمات بناءً على طلب العميل وتصميم لافتة وملصقات وتصميمات رقمية وغيرها.
+                  </p>
+               </article>
+
+               <article class="services--card">
+                  <i class="fa-solid fa-pen-nib services--icon"></i>
+                  <h2 class="services--title">مدقق رئيسي</h2>
+
+                  <p class="services--description">
+                      إجراء البحوث والدراسات على الأموال والأعمال في الشركات و كتابة تقارير توضح النتائح والحلول والاقتراحات المالية التي يتوصل إليها المدقق ويُشاركها مع كبار المدراء وأصحاب القرار في الشركة.
+                  </p>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h3 class="section--subtitle">
+               أهم <span>المقالات</span>
+            </h3>
+
+            <h2 class="section--title">المقالات الأكثر زيارة</h2>
+
+            <div class="projects--containerr containerr grid">
+               <article class="projects--card">
+                  <img src="./assets/img/project-img-1.jpg" alt="projects image" class="projects--img">
+                  <div class="projects--modal">
+
+                     <h2 class="projects--title">خمس نصائح لتحسين أداء إعلاناتك بشكل أكبر</h2>
+
+                     <a href="#" class="projects--button">
+                        مشاهدة<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects--card">
+                  <img src="./assets/img/project-img-2.jpg" alt="projects image" class="projects--img">
+
+                  <div class="projects--modal">
+                     <h2 class="projects--title">تعرف على نموذج التسويق الحديث بكامل عناصره وإمكانياته</h2>
+
+                     <a href="#" class="projects--button">
+                        مشاهدة<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects--card">
+                  <img src="./assets/img/project-img-3.jpg" alt="projects image" class="projects--img">
+
+                  <div class="projects--modal">
+
+                     <h2 class="projects--title">أهم 10 معايير رئيسية لقياس الأداء في التسويق الرقمي</h2>
+
+                     <a href="#" class="projects--button">
+                        مشاهدة<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects--card">
+                  <img src="./assets/img/project-img-4.jpg" alt="projects image" class="projects--img">
+
+                  <div class="projects--modal">
+
+                     <h2 class="projects--title">Modern website</h2>
+
+                     <a href="#" class="projects--button">
+                        مشاهدة<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects--card">
+                  <img src="./assets/img/project-img-5.jpg" alt="projects image" class="projects--img">
+
+                  <div class="projects--modal">
+
+                     <h2 class="projects--title">Modern website</h2>
+
+                     <a href="#" class="projects--button">
+                        مشاهدة<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects--card">
+                  <img src="./assets/img/project-img-6.jpg" alt="projects image" class="projects--img">
+
+                  <div class="projects--modal">
+
+                     <h2 class="projects--title">Modern website</h2>
+
+                     <a href="#" class="projects--button">
+                        مشاهدة<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                  </div>
+               </article>
+            </div>
+
+            <div class="btn-containerr">
+               <button class="button-ghost button"  id="Btn-show-more">Show more</button>
+            </div>
+         </section>
+
+          <!--==================== LOGOS ====================-->
+          <section class="logos section">
+            <h2 class="section--subtitle">
+               My <span>Certificates
+            </h2>
+            
+            <h2 class="section--title">Certificates and accreditations</h2>
+            
+             <div class="logos--containerr containerr grid">
+                 <div class="logos--img">
+                     <a href="#">
+                         <img src="./assets/img/Logo AGENTs.png" alt="logos">
+                     </a>
+                 </div> 
+                 <div class="logos--img">
+                     <a href="#">
+                         <img src="./assets/img/Logo BUYERS.png" alt="logos">
+                     </a>
+                 </div> 
+                 <div class="logos--img">
+                     <a href="#">
+                         <img src="./assets/img/Logo PROPERTYs.png" alt="logos">
+                     </a>
+                 </div> 
+                 <div class="logos--img">
+                     <a href="#">
+                         <img src="./assets/img/Logo Sallers.png" alt="logos">
+                     </a>
+                 </div>
+             </div>
+          </section>
+         <!--==================== POPULAR ====================-->
+         <section class="popular section">
+            <h2 class="section--subtitle">
+               My <span>Services
+            </h2>
+            
+            <h2 class="section--title">Choose your package</h2>
+
+            <div class="popular__containerr containerr swiper row">
+                <div class="swiper-wrapper">
+                    <!-- article #1 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">Gold</h1>
+                        <h3 class="popular__subtitle">$150 <span>/month</span></h3>
+
+                        <div class="popular__data">
+                           <ul class="popular__group">
+                              <li class="popular__item">10GB storage</li>
+                              <li class="popular__item">40GB Bandwidth</li>
+                              <li class="popular__item">1 SQL Database</li>
+                              <li class="popular__item">5 Email Account</li>
+                              <li class="popular__item">Free Domain</li>
+                              <li class="popular__item">24/7 Support</li>
+                           </ul>
+                        </div>
+
+                        <h3 class="popular__price" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Buy Wow</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                           <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #2 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">Silver</h1>
+                        <h3 class="popular__subtitle">$125 <span>/month</span></h3>
+
+                        <div class="popular__data">
+                           <ul class="popular__group">
+                              <li class="popular__item">10GB storage</li>
+                              <li class="popular__item">40GB Bandwidth</li>
+                              <li class="popular__item">1 SQL Database</li>
+                              <li class="popular__item">5 Email Account</li>
+                              <li class="popular__item">Free Domain</li>
+                              <li class="popular__item">24/7 Support</li>
+                           </ul>
+                        </div>
+
+                        <h3 class="popular__price" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Buy Wow</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                           <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #3 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">Platinium</h1>
+                        <h3 class="popular__subtitle">$175 <span>/month</span></h3>
+
+                        <div class="popular__data">
+                           <ul class="popular__group">
+                              <li class="popular__item">100GB storage</li>
+                              <li class="popular__item">400GB Bandwidth</li>
+                              <li class="popular__item">5 SQL Database</li>
+                              <li class="popular__item">10 Email Account</li>
+                              <li class="popular__item">5 Free Domain</li>
+                              <li class="popular__item">24/7 Support</li>
+                           </ul>
+                        </div>
+
+                        <h3 class="popular__price" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Buy Wow</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                           <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #4 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">Platinium</h1>
+                        <h3 class="popular__subtitle">$175 <span>/month</span></h3>
+
+                        <div class="popular__data">
+                           <ul class="popular__group">
+                              <li class="popular__item">100GB storage</li>
+                              <li class="popular__item">400GB Bandwidth</li>
+                              <li class="popular__item">5 SQL Database</li>
+                              <li class="popular__item">10 Email Account</li>
+                              <li class="popular__item">5 Free Domain</li>
+                              <li class="popular__item">24/7 Support</li>
+                           </ul>
+                        </div>
+
+                        <h3 class="popular__price" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Buy Wow</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                           <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #5 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">Platinium</h1>
+                        <h3 class="popular__subtitle">$175 <span>/month</span></h3>
+
+                        <div class="popular__data">
+                           <ul class="popular__group">
+                              <li class="popular__item">100GB storage</li>
+                              <li class="popular__item">400GB Bandwidth</li>
+                              <li class="popular__item">5 SQL Database</li>
+                              <li class="popular__item">10 Email Account</li>
+                              <li class="popular__item">5 Free Domain</li>
+                              <li class="popular__item">24/7 Support</li>
+                           </ul>
+                        </div>
+
+                        <h3 class="popular__price" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Buy Wow</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                           <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #6 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">Platinium</h1>
+                        <h3 class="popular__subtitle">$175 <span>/month</span></h3>
+
+                        <div class="popular__data">
+                           <ul class="popular__group">
+                              <li class="popular__item">100GB storage</li>
+                              <li class="popular__item">400GB Bandwidth</li>
+                              <li class="popular__item">5 SQL Database</li>
+                              <li class="popular__item">10 Email Account</li>
+                              <li class="popular__item">5 Free Domain</li>
+                              <li class="popular__item">24/7 Support</li>
+                           </ul>
+                        </div>
+
+                        <h3 class="popular__price" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Buy Wow</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                           <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </article>
+                </div>
+
+                <div class="swiper-pagination"></div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h3 class="section--subtitle">
+               Get In <span>Touch</span>
+            </h3>
+
+            <h2 class="section--title">Contact Me</h2>
+
+            <div class="contact--containerr containerr grid">
+               <form action="" class="contact--form" id="contact-form">
+                  <div class="contact--group">
+                     <input type="text" name="user_name" required placeholder="Enter your name" class="contact--input">
+                     <input type="email" name="user_email" required placeholder="Enter your email" class="contact--input">
+                  </div>
+
+                  <textarea class="contact--input" name="user_project" required placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
+
+                  <p class="contact--message" id="contact-message"></p>
+
+                  <button type="submit" class="button contact--button">
+                     Send Message
+                  </button>
+               </form>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer--containerr containerr grid">
+            <div>
+               <h1 class="footer--title">
+                  Mohamed <span>alhiraki</span>
+               </h1>
+
+               <h2 class="footer--education">
+                  Front-end Developer  
+               </h2>
+            </div>
+
+            <div class="footer--social">
+               <a href="https://www.facebook.com/" target="_blank" class="footer--social-link">
+                  <i class="fa-brands fa-facebook"></i>
+               </a>
+
+               <a href="https://www.instagram.com/" target="_blank" class="footer--social-link">
+                  <i class="fa-brands fa-instagram"></i>
+               </a>
+
+               <a href="https://twitter.com/" target="_blank" class="footer--social-link">
+                  <i class="fa-brands fa-whatsapp"></i>
+               </a>
+            </div>
+
+            <div class="footer--description">
+               <h3 class="footer--h3-des">
+                  Small ideas, but the way to reach exceptional results may inspire you. Do not forget to follow social networks to improve the performance of your campaigns or develop your business.
+               </h3>
+            </div>
+         </div>
+
+         <div class="footer--footer containerr grid">
+            <div class="footer--copy">
+               &#169; Copyright Dr/Mohamed Alharaky. All rights reserved
+            </div>
+            <div class="footer--copy kavo">
+               <a href="https://ahmedragab24.github.io/" target="_blank" class="footer--ahmedragab">Design and developerBy : ahmed ragab</a>
+            </div>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="fa-solid fa-arrow-up"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="./assets/js/scrollreveal.min.js"></script>
+
+      <!-- ===================================  Translate  ================================ -->
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+      <!-- ===================================  SWIPER JS  ================================ -->
+      <script src="./assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== BOX ICON ===============-->
+      <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+
+      <!-- ===================================  BOOTSTRAP  ================================== -->
+      <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
