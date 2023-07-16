@@ -1,3 +1,13 @@
+// ==================== AuTO NAME =================
+const typed = new Typed('.home--title', {
+  strings: ['محمد الحراكي'],
+  typeSpeed: 150,
+  backSpeed: 150,
+  loop: true,
+  shuffle: false,
+  fadeOutClass: 'typed-fade-out',
+})
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),  
@@ -73,7 +83,7 @@ window.addEventListener('scroll', blurHeader)
 /*=============== SHOW SCROLL UP ===============*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
-    // When the scroll is higher than 400 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scroll-top class
     if(this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
@@ -113,38 +123,9 @@ sr.reveal(`.home--education`, {delay: 600})
 sr.reveal(`.home--description, .footer--footer`, {delay: 700})
 sr.reveal(`.services--containerr, .projects--containerr, .popular__containerr, .contact--containerr`, {delay: 800})
 sr.reveal(`.skills--content, .footer--containerr`, {delay: 800, origin: 'bottom'})
-sr.reveal(`.home--social-link, .about--box, .projects--card, .logos--img` , {interval: 100})
-sr.reveal(`.home--data, .about--image` , {origin: 'left'})
-sr.reveal(`.home--image, .about--data ` , {origin: 'right'})
-
-
-/*==================== SWIPER DISCOVER ====================*/
-let swiperPopular = new Swiper(".popular__containerr", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
-    loop: true,
-    spaceBetween: 32,
-    pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-      },
-    coverflowEffect: {
-        rotate: 8,
-    },
-    breakpoints: {
-    768: {
-      slidesPerView: 2.8,
-    },
-    1024: {
-      spaceBetween: 48,
-      slidesPerView: 2.7,
-    },
-      },
-
-        
-});
+sr.reveal(`.home--social-link, .about--box, .projects--card, .logos--img, .skills--mySkills ` , {interval: 100})
+sr.reveal(`.home--image, .about--image` , {origin: 'left'})
+sr.reveal(`.home--data, .about--data ` , {origin: 'right'})
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
@@ -192,6 +173,30 @@ BtnShow.onclick = () =>{
    if(currentItem >= boxes.length){
     BtnShow.style.display = 'none';
    }
+}
+
+// ============================ Count ===============================
+let nums = document.querySelectorAll(".nums .num");
+let sectionAbout = document.querySelector(".about");
+let started = false; // Function Started ? No
+
+window.onscroll = function () {
+  if (window.scrollY >= 500) {
+    if (!started) {
+      nums.forEach((num) => startCount(num));
+    }
+    started = true;
+  }
+};
+
+function startCount(el) {
+  let goal = el.dataset.goal;
+  let count = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+      clearInterval(count);
+    }
+  }, 2000 / goal);
 }
 
 
