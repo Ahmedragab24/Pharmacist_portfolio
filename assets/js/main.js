@@ -201,7 +201,7 @@ function startCount(el) {
 
 
 
-// ========================= TRANSLATE ================================
-function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
-  }
+// // ========================= TRANSLATE ================================
+// function googleTranslateElementInit() {
+//     new google.translate.TranslateElement({pageLanguage: 'ar', Language :'en'}, 'google_translate_element');
+//   }

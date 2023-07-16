@@ -1712,7 +1712,7 @@ align-items: center;
 
   .nav--logo {
     font-size: var(--h2-font-size);
-    margin-right: -15rem;
+    margin-right: -11rem;
   }
 
   .nav--close,
