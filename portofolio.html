@@ -37,7 +37,7 @@
                <span>راسلني</span>
             </div>
           
-            <a href="#" class="nav--logo">
+            <a href="./index.html#home" class="nav--logo">
                محمد <span>الحراكي</span>
             </a> 
 
@@ -63,7 +63,7 @@
                      <a  class="nav--link-but dropdown-toggle" role="button" data-bs-toggle="dropdown">عني</a>
                      <ul class="dropdown-menu">
                         <li class="dropdown-item ">
-                           <a href="./CV.html" class="nav--link-down">عني</a>
+                           <a href="./portofolio.html" class="nav--link-down">عني</a>
                         </li>
                         
                         <li class="dropdown-item ">
@@ -71,11 +71,11 @@
                         </li>
                         
                         <li class="dropdown-item ">
-                           <a href="./" class="nav--link-down">إعتماداتي</a>
+                           <a href="./CV.html" class="nav--link-down">إعتماداتي</a>
                         </li>
                         
                         <li class="dropdown-item ">
-                           <a href="./portofolio.html" class="nav--link-down">شهاداتي</a>
+                           <a href="./index.html#logos" class="nav--link-down">شهاداتي</a>
                         </li>
                         
                         <li class="dropdown-item ">
@@ -93,7 +93,7 @@
                   </li>  
 
                   <li class="nav--item">
-                     <a href="#home" class="nav--link active-link">الرئيسية</a>
+                     <a href="./index.html#home" class="nav--link active-link">الرئيسية</a>
                   </li>
                </ul>
 
@@ -120,18 +120,19 @@
       <!--==================== Portofolio ====================-->
       <section class="about section">
         <div class="about__containerr containerr grid">
-            <div class="about__data">
-                <h2 class="section__title about__title"> المزيد من المعلومات <br>   عن محمد الحراكي</h2>
-                <p class="about__description">
-                  صيدلاني خريج جامعة فيلادفيا , مسوق إلكتروني بخبرة 5 سنوات في بحور التسويق الصيدلاني وأدوات التسويق والتحليل الإلكتروني , متمكن من فنون التصميم والفيدو جرافيك وبرصيد يقارب 700 تصميم, مدقق رئيسي معتمد علي نظام الجودة وحاصل علي مجموعة من الشهادات الدولية والمحلية في علوم التسويق الصيلادني والإدارة الصحية ونظم.الجودة الدولية.
-                </p>
-                <a href="./OurOffices.html" class="button">الأعتماد</a>
-            </div>
             <div class="about__img">
                 <div class="about__img-overlay">
                     <img src="./assets/img/8031.jpg" alt="logo" class="about__img-one">
                 </div>
             </div>
+
+            <div class="about__data">
+               <h2 class="section__title about__title"> المزيد من المعلومات <br>   عن محمد الحراكي</h2>
+               <p class="about__description">
+                 صيدلاني خريج جامعة فيلادفيا , مسوق إلكتروني بخبرة 5 سنوات في بحور التسويق الصيدلاني وأدوات التسويق والتحليل الإلكتروني , متمكن من فنون التصميم والفيدو جرافيك وبرصيد يقارب 700 تصميم, مدقق رئيسي معتمد علي نظام الجودة وحاصل علي مجموعة من الشهادات الدولية والمحلية في علوم التسويق الصيلادني والإدارة الصحية ونظم.الجودة الدولية.
+               </p>
+               <a href="./OurOffices.html" class="button">الأعتماد</a>
+           </div>
         </div>
       </section>
 
@@ -191,7 +192,8 @@
          padding-bottom: 8rem;
          }
 
-         .about__data {
+         .about__data,
+         .about__title {
          text-align: center;
          }
 
@@ -244,12 +246,18 @@
          }
 
          @media screen and (min-width: 768px) {
-            .about__containerr {
-            grid-template-columns: repeat(2, 1fr);
+          .about__containerr {
+             grid-template-columns: repeat(2, 1fr);
+             align-items: center;
+          }
+         .about__img {
+            display: flex;
+            column-gap: 1rem;
             align-items: center;
+            justify-content: left;
          }
          .about__data, .about__title {
-            text-align: initial;
+            text-align: right;
          }
          .about__title {
             margin-bottom: 1.5rem;
