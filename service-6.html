@@ -413,9 +413,9 @@
 
             /* Section 1 */
             .section-1 {
-                background-color: var(--containerr-color);
-                background: linear-gradient(170deg,  hsla(262, 100%, 50%, 0.250) 10% ,
-                hsla(284, 100%, 50%, 0.250) 75% );
+                border-bottom: 8px solid var(--second-color);
+                border-radius: 20%;
+                padding: 9rem 0;
             }
 
             .section-1--container {
@@ -461,12 +461,6 @@
             }
 
             /* Section 2 */
-            .section-2 {
-                background-color: var(--containerr-color);
-                background: linear-gradient(170deg,  hsla(262, 100%, 50%, 0.250) 10% ,
-                hsla(284, 100%, 50%, 0.250) 75% );
-            }
-
             .section-2--container {
                 grid-template-columns: repeat(2, 1fr);
                 display: flex;
@@ -570,13 +564,6 @@
             .section {
                 text-align: center;
             }
-
-            .section-3 {
-                background-color: var(--containerr-color);
-                background: linear-gradient(170deg,  hsla(262, 100%, 50%, 0.250) 10% ,
-                hsla(284, 100%, 50%, 0.250) 75% );
-            }
-
             .section-3-container {
                 grid-template-columns: repeat(4, 1fr);
                 column-gap: 1rem;
@@ -647,12 +634,6 @@
             }
 
             /* Section 4  */
-            .section-4 {
-                background-color: var(--containerr-color);
-                background: linear-gradient(170deg,  hsla(262, 100%, 50%, 0.250) 10% ,
-                hsla(284, 100%, 50%, 0.250) 75% );
-            }
-
             .section-4--ul, 
             .section-5--ul {
                 display: flex;
@@ -684,12 +665,6 @@
 
 
             /* Section 5 */
-            .section-5 {
-                background-color: var(--containerr-color);
-                background: linear-gradient(170deg,  hsla(262, 100%, 50%, 0.250) 10% ,
-                hsla(284, 100%, 50%, 0.250) 75% );
-            }
-
             .section-5--li {
                 background-color: var(--container-color);
                 border: 2px solid var(--first-color-alt);
@@ -741,12 +716,6 @@
             }
 
             /*=============== VALUE ===============*/
-            .value {
-                background-color: var(--containerr-color);
-                background: linear-gradient(170deg,  hsla(262, 100%, 50%, 0.250) 10% ,
-                hsla(284, 100%, 50%, 0.250) 75% );
-            }
-
             .value--container {
             row-gap: 3rem;
             margin-top: 4rem;
@@ -1032,9 +1001,9 @@
 
 
     // ========================= TRANSLATE ================================
-    // function googleTranslateElementInit() {
-    //    new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
-    // }
+    function googleTranslateElementInit() {
+       new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
+    }
     </script>
 
     <!--=============== SCROLLREVEAL ===============-->
