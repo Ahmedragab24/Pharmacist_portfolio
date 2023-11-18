@@ -1,16 +1,7 @@
-# Responsive Portfolio Website Patrick
-## [Watch it on youtube](https://youtu.be/Y4-xMb-eHOQ)
-### Responsive Portfolio Website Patrick
+# Responsive Portfolio Website 
 
-- Responsive Portfolio Website Design Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Contains a beautiful dark theme.
-- The color of the project can be customized.
-- Sending emails in the contact section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Demo : https://ahmedragab24.github.io/Pharmacist_portfolio/
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+![تصميم بدون عنوان](https://github.com/Ahmedragab24/Pharmacist_portfolio/assets/89437174/ea5d065b-273e-496e-897b-1a786b84ec5d)
 
-![preview img](/preview.png)
+
